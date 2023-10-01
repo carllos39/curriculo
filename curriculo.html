@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo</title>
     <style>
+        *{box-sizing: border-box;}
         body {
             background-image: url(imagens/pexels-laura-tancredi-7078283.jpg);
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             margin: auto;
             padding: 10px;
+            background-attachment: fixed;
 
         }
 
@@ -19,8 +21,9 @@
             font-family:Verdana, Geneva, Tahoma, sans-serif;
             color: white;
             background-color: black;
-            text-transform: uppercase;
-            box-shadow: 2px;
+            border:lightsteelblue solid 8px;
+        
+            box-shadow: 4px;
             
         }
 
@@ -34,9 +37,12 @@
             border-radius: 4px;
             max-width:1000px;
         }
-        @media screen and(min-width:650px) {
-            body{
-                background-color:azure;
+        hr{
+            
+        }
+        @media screen and (min-width:650px) {
+            .container{
+                background-color:brown;
             }
             
         }
@@ -55,27 +61,32 @@
         <main>
             <article>
                 <h2>Experiências Anteriores</h2>
+                <hr>
                 <h3>Empresa DADOS - Distribuidora de Diários Oficiais</h3>
                 <p>Cargo:Entregador</p>
                 <p>Período:out/1986 a mar/1989</p>
-
             </article>
+            <hr>
             <article>
                 <h3>Empresa CMTC - Companhia Municipal de Transporte Urbano</h3>
                 <p>Cargo: Cobrador</p>
                 <p>Período:abril/1989 a jan/1994</p>
             </article>
+            <hr>
             <article>
                 <h3> Zefir Transporte Urbano</h3>
                 <p>Cargo: Cobrador</p>
                 <p>Período: jan/1994 a fev/1995</p>
             </article>
+            <hr>
             <article>
                 <h3>Empresa CORREIOS - Empresa Brasileira de Correios e Telegrafos</h3>
                 <p>Cargo: Carteiro</p>
                 <p>Período:fev/1995 a ago/2021</p>
             </article>
+            <hr>
             <h2>Cursos</h2>
+            <hr>
             <h3> S.O.S Computadores</h3>
             <p>Montagem e Manutenção de Computadores</p>
             <hr>
